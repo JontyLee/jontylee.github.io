@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jonth&#39;s Blog</title>
+  <title>Jonty&#39;s Blog</title>
   <subtitle>夫君子之行，静以修身，俭以养德。非淡泊无以明志， 非宁静无以致远。</subtitle>
   <link href="/atom.xml" rel="self"/>
-  
-  <link href="https://jonthlee.github.io/"/>
+
+  <link href="https://jontylee.github.io/"/>
   <updated>2017-03-20T02:06:22.581Z</updated>
-  <id>https://jonthlee.github.io/</id>
-  
+  <id>https://jontylee.github.io/</id>
+
   <author>
-    <name>李建林(Jonth Lee)</name>
-    
+    <name>李建林(Jonty Lee)</name>
+
   </author>
-  
+
   <generator uri="http://hexo.io/">Hexo</generator>
-  
+
   <entry>
     <title>SVN服务搭建</title>
-    <link href="https://jonthlee.github.io/SVN-Use/"/>
-    <id>https://jonthlee.github.io/SVN-Use/</id>
+    <link href="https://jontylee.github.io/SVN-Use/"/>
+    <id>https://jontylee.github.io/SVN-Use/</id>
     <published>2017-03-15T11:21:01.000Z</published>
     <updated>2017-03-20T02:06:22.581Z</updated>
-    
+
     <content type="html"><![CDATA[<p>协同处理一些项目时，需要一个项目管理工具，来随时查看多人修改的文档，图片等，对于程序开发，一个好的项目管理工具可以大大提升工作效率。目前用的比较多的应该算是SVN和Git了。SVN（<a href="https://baike.baidu.com/link?url=px7lg0hFn6zp4hFqKREgTX0jrwvclqIjl5f3i-csu1WbjvCX1k4av838WM7u1I93Q5y0EWX1MAbvcHs1-e2Diq" target="_blank" rel="external">百度百科词条</a>）是Subversion的简称，是一个开放源代码的版本控制系统，相较于RCS、CVS，它采用了分支管理系统，它的设计目标就是取代CVS。互联网上很多版本控制服务已从CVS迁移到Subversion。说得简单一点SVN就是用于多个人共同开发同一个项目，共用资源的目的。</p>
 <h3 id="服务端"><a href="#服务端" class="headerlink" title="服务端"></a>服务端</h3><p>在CentOS上安装SVN服务端。</p>
 <h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>root用户执行命令时不用加sudo。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo yum install subversion -y <span class="comment"># 安装SVN服务</span></div></pre></td></tr></table></figure></p>
@@ -50,29 +50,29 @@
 <li>Windows<h4 id="检出-1"><a href="#检出-1" class="headerlink" title="检出"></a>检出</h4>Windows下有图形界面的SVN管理工具<a href="https://tortoisesvn.net/" target="_blank" rel="external">TortoiseSvn</a>，安装下载后命令直接集成在鼠标右键。在你想检出版本库的目录下，点击右键，找到‘svn checkout’或者‘svn 检出’，输入svn地址和检出到本地目录的地址，点击确定，再弹出的输入框输入用户名和密码即可。<br><img src="https://www.tuchuang001.com/images/2017/03/20/SVN-CO.png" alt="SVN-CO"><h4 id="更新-1"><a href="#更新-1" class="headerlink" title="更新"></a>更新</h4>在你想更新的文件和目录上，点击右键，再点击‘SVN Update’或‘SVN 更新’，即可。<h4 id="提交-1"><a href="#提交-1" class="headerlink" title="提交"></a>提交</h4>在你想更新的文件和目录上，点击右键，再点击‘SVN Commit’或‘SVN 提交’，在弹出的弹窗中输入提交消息，如果是提交的文件夹，可以选择提交文件夹下的文件。<br>提交指定文件：<br><img src="https://www.tuchuang001.com/images/2017/03/20/SVN-CI-Single.png" alt="SVN-CI-Single"><br>提交指定文件夹：<br><img src="https://www.tuchuang001.com/images/2017/03/20/SVN-CI-Multi.png" alt="SVN-Multi"><br>其他命令及设置，右键选择TortoiseSvn查看。<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3>可以参见SVN官网<a href="http://subversion.apache.org/" target="_blank" rel="external">http://subversion.apache.org/</a></li>
 </ul>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;协同处理一些项目时，需要一个项目管理工具，来随时查看多人修改的文档，图片等，对于程序开发，一个好的项目管理工具可以大大提升工作效率。目前用的比较多的应该算是SVN和Git了。SVN（&lt;a href=&quot;https://baike.baidu.com/link?url=px7l
-    
+
     </summary>
-    
-      <category term="服务器旅程" scheme="https://jonthlee.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%85%E7%A8%8B/"/>
-    
-    
-      <category term="Linux" scheme="https://jonthlee.github.io/tags/Linux/"/>
-    
-      <category term="SVN" scheme="https://jonthlee.github.io/tags/SVN/"/>
-    
+
+      <category term="服务器旅程" scheme="https://jontylee.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%85%E7%A8%8B/"/>
+
+
+      <category term="Linux" scheme="https://jontylee.github.io/tags/Linux/"/>
+
+      <category term="SVN" scheme="https://jontylee.github.io/tags/SVN/"/>
+
   </entry>
-  
+
   <entry>
     <title>VirtulaBox + Vagrant——Linux虚拟环境好伴侣</title>
-    <link href="https://jonthlee.github.io/virtual-linux/"/>
-    <id>https://jonthlee.github.io/virtual-linux/</id>
+    <link href="https://jontylee.github.io/virtual-linux/"/>
+    <id>https://jontylee.github.io/virtual-linux/</id>
     <published>2017-03-13T16:09:53.000Z</published>
     <updated>2017-03-15T03:21:47.549Z</updated>
-    
+
     <content type="html"><![CDATA[<p>作为一个苦逼的程序猿，避免不了要接触Linux系统，但对于从小被Windows系统教育起来的人来说，一时之间难以接受Linux的操作管理方式，再加上部分常用软件没有Linux版本，所以要完全将系统切换到Linux上就着实有点困难了。简单粗暴的解决方式就是拜苹果教，既可以体验炫酷的UI，也可以逐步了解到命令行的魅力。<a id="more"></a>除此之外，就需要在本地Windows系统搭建一个Linux虚拟机，来模拟代码在线上生产环境的运行状态。可用的虚拟软件也有挺多，为什么选择<a href="https://www.virtualbox.org/" target="_blank" rel="external">VirtualBox</a>和<a href="https://www.vagrantup.com/" target="_blank" rel="external">Vagrant</a>呢？两个软件都是开源免费，跨平台的，而且使用她们可以简单快速的搭建虚拟环境，同时对虚拟环境的管理也十分方便，而且网上还有根据不同开发环境制作的box虚拟镜像可供选择，比去下原始的系统镜像文件要方便。</p>
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>首先去VirtualBox和Vagrant官网下载最新版本的软件。</p>
 <ul>
@@ -120,18 +120,18 @@
 </ul>
 <p>还有一些其他命令可以使用Vagrant的帮助命令来查看如何使用，或者去官网了解。</p>
 ]]></content>
-    
+
     <summary type="html">
-    
+
       &lt;p&gt;作为一个苦逼的程序猿，避免不了要接触Linux系统，但对于从小被Windows系统教育起来的人来说，一时之间难以接受Linux的操作管理方式，再加上部分常用软件没有Linux版本，所以要完全将系统切换到Linux上就着实有点困难了。简单粗暴的解决方式就是拜苹果教，既可以体验炫酷的UI，也可以逐步了解到命令行的魅力。
-    
+
     </summary>
-    
-      <category term="服务器旅程" scheme="https://jonthlee.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%85%E7%A8%8B/"/>
-    
-    
-      <category term="Linux" scheme="https://jonthlee.github.io/tags/Linux/"/>
-    
+
+      <category term="服务器旅程" scheme="https://jontylee.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%85%E7%A8%8B/"/>
+
+
+      <category term="Linux" scheme="https://jontylee.github.io/tags/Linux/"/>
+
   </entry>
-  
+
 </feed>
